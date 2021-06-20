@@ -1,0 +1,19 @@
+{
+    "name": "juan1/composer_package",
+    "description": "Un paquete pueba de php en composer",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Juan1\\ComposerPackage\\": "src/",
+            "Juan1\\hola\\": "src/"
+
+        }
+    },
+    "authors": [
+        {
+            "name": "Juan Borda",
+            "email": "jeborda3@misena.edu.co"
+        }
+    ],
+    "require": {}
+}
